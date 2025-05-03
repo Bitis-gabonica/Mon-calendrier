@@ -1,0 +1,37 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "email": "demo@mail.com",
+        "password": "123456"
+      }
+    ],
+  
+    "events": [
+      {
+        "id": "1",
+        "title": "Rendez-vous médecin",
+        "date": "2025-05-10",
+        "description": "Bilan de santé annuel"
+      },
+      {
+        "id": "2",
+        "title": "Anniversaire de Jean",
+        "date": "2025-05-15",
+        "description": ""
+      },
+      {
+        "id": "8a2a",
+        "title": "match",
+        "date": "2025-05-04",
+        "description": ""
+      },
+      {
+        "id": "d18c",
+        "title": "cdscsd",
+        "date": "2025-05-11",
+        "description": "cdscds"
+      }
+    ]
+  }
+  

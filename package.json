@@ -1,0 +1,25 @@
+{
+  "name": "mon-calendrier-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.17",
+    "@fullcalendar/daygrid": "^6.1.17",
+    "@fullcalendar/vue3": "^6.1.17",
+    "bootstrap": "^5.3.5",
+    "mon-calendrier-vue": "file:",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.2",
+    "json-server": "^1.0.0-beta.3",
+    "vite": "^6.3.1"
+  }
+}
