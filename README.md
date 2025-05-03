@@ -1,5 +1,67 @@
-# Vue 3 + Vite
+# Gestion d’Évènements – Vue 3 + JSON Server
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Mini‑application web **Vue 3 (Vite)** permettant :
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+- **Authentification factice** (JSON Server)  
+- **CRUD** d’évènements (titre / date / description)  
+- Affichage : **Calendrier** (FullCalendar) + **tableau** Bootstrap  
+
+Temps d’installation ≈ 10 min.
+
+---
+
+## Prérequis
+
+| Outil   | Version conseillée |
+|---------|--------------------|
+| Node.js | ≥ 14               |
+| npm     | ≥ 6                |
+
+> Tout se lance en local ; aucun SGBD n’est requis (JSON Server stocke les données dans un fichier).
+
+---
+
+## Installation rapide
+
+```bash
+# 1. Clone du dépôt
+git clone <url-du-repo> mon-calendrier-vue
+cd mon-calendrier-vue
+
+# 2. Dépendances front
+npm install
+
+# 3. Dépendances dev backend mock
+npm install --save-dev json-server
+
+Lancement
+Ouvrez deux terminaux :
+
+npx json-server --watch db.json --port 3000
+
+npm run dev        # démarre Vite sur http://localhost:5173/
+
+
+Identifiants de test
+Email	demo@mail.com     
+Motdepasse  123456
+
+Connectez‑vous, puis utilisez le menu pour :
+
+Créer un évènement
+
+Consulter le Calendrier mensuel
+
+Voir la Liste complète (éditer / supprimer)
+
+
+Principales dépendances
+Vue 3 + Vite (bundler)
+
+Vue‑Router 4 (SPA multi‑pages)
+
+FullCalendar @vue3 (calendrier)
+
+Bootstrap 5 (UI)
+
+JSON Server (backend mock REST)
